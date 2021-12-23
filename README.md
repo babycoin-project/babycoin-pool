@@ -1,4 +1,8 @@
-cryptonote-nodejs-pool
+# BabyCoin Pool
+
+## Based on cryptonote-nodejs-pool
+
+[cryptonote-nodejs-pool](https://github.com/dvandal/cryptonote-nodejs-pool)
 ======================
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins. Comes with lightweight example front-end script which uses the pool's AJAX API. Support for Cryptonight (Original, Monero v7, Stellite v7), Cryptonight Light (Original, Aeon v7, IPBC) Cryptonight Fast (Electronero/Crystaleum), and Cryptonight Heavy (Sumokoin) algorithms.
@@ -98,7 +102,7 @@ Usage
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
 * [Node.js](http://nodejs.org/) v11.0+
-  * For Ubuntu: 
+  * For Ubuntu:
  ```
   curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash
   sudo apt-get install -y nodejs
@@ -106,8 +110,8 @@ Usage
   * Or use NVM(https://github.com/creationix/nvm) for debian/ubuntu.
 
 
-* [Redis](http://redis.io/) key-value store v2.6+ 
-  * For Ubuntu: 
+* [Redis](http://redis.io/) key-value store v2.6+
+  * For Ubuntu:
 ```
 sudo add-apt-repository ppa:chris-lea/redis-server
 sudo apt-get update
@@ -122,13 +126,13 @@ echo 1024 > /proc/sys/net/core/somaxconn
  ```
  chmod +x /etc/rc.local
  ```
- 
+
 * libssl required for the node-multi-hashing module
   * For Ubuntu: `sudo apt-get install libssl-dev`
 
 * Boost is required for the cryptoforknote-util module
   * For Ubuntu: `sudo apt-get install libboost-all-dev`
-  
+
 * libsodium  
   * For Ubuntu: `sudo apt-get install libsodium-dev`
 
@@ -143,7 +147,7 @@ you are using - a good place to start with redis is [data persistence](http://re
 ```bash
 sudo adduser --disabled-password --disabled-login your-user
 ```
-To login with this user : 
+To login with this user :
 ```
 sudo su - your-user
 ```
@@ -180,7 +184,7 @@ Explanation for each field:
 
 /* Number of coin decimals places for notifications and front-end */
 "coinDecimalPlaces": 4,
-  
+
 /* Coin network time to mine one block, see DIFFICULTY_TARGET constant in DAEMON_CODE/src/cryptonote_config.h */
 "coinDifficultyTarget": 120,
 
@@ -199,7 +203,7 @@ Explanation for each field:
 "cnVariant": 1,
 "cnBlobType": 0,
 "includeHeight":false, /*true to include block.height in job to miner*/
-"includeAlgo":"cn/wow", /*wownero specific change to include algo in job to miner*/	
+"includeAlgo":"cn/wow", /*wownero specific change to include algo in job to miner*/
 "isRandomX": true,
 /* Logging */
 "logging": {
@@ -250,16 +254,16 @@ Explanation for each field:
 
     /* Address where block rewards go, and miner payments come from. */
     "poolAddress": "your wallet",
-    
+
     /* This is the Public address prefix used for miner login validation. */
     "pubAddressPrefix": 343,
-    
+
     /* This is the Integrated address prefix used for miner login validation. */
     "intAddressPrefix": 340,
-    
+
     /* This is the Subaddress prefix used for miner login validation. */
     "subAddressPrefix": 439,
-    
+
     /* Poll RPC daemons for new blocks every this many milliseconds. */
     "blockRefreshInterval": 1000,
 
@@ -269,7 +273,7 @@ Explanation for each field:
     "sslCert": "./cert.pem", // The SSL certificate
     "sslKey": "./privkey.pem", // The SSL private key
     "sslCA": "./chain.pem" // The SSL certificate authority chain
-    
+
     "ports": [
         {
             "port": 3333, // Port for mining apps to connect to
@@ -316,7 +320,7 @@ Explanation for each field:
         "variancePercent": 30, // Allow time to vary this % from target without retargeting
         "maxJump": 100 // Limit diff percent increase/decrease in a single retargeting
     },
-	
+
     /* Set difficulty on miner client side by passing <address> param with +<difficulty> postfix */
     "fixedDiff": {
         "enabled": true,
@@ -348,7 +352,7 @@ Explanation for each field:
         "invalidPercent": 25, // What percent of invalid shares triggers ban
         "checkThreshold": 30 // Perform check when this many shares have been submitted
     },
-    
+
     /* Slush Mining is a reward calculation technique which disincentivizes pool hopping and rewards 'loyal' miners by valuing younger shares higher than older shares. Remember adjusting the weight!
     More about it here: https://mining.bitcoin.cz/help/#!/manual/rewards */
     "slushMining": {
@@ -388,7 +392,7 @@ Explanation for each field:
     "finderReward": 0.2, // 0.2 finder reward
     "devDonation": 0.2, // 0.2% donation to send to pool dev
     "networkFee": 0.0, // Network/Governance fee (used by some coins like Loki)
-    
+
     /* Some forknote coins have an issue with block height in RPC request, to fix you can enable this option.
        See: https://github.com/forknote/forknote-pool/issues/48 */
     "fixBlockHeightRPC": false
@@ -473,13 +477,13 @@ Explanation for each field:
     "enabled": false,
     "fromAddress": "your@email.com", // Your sender email
     "transport": "sendmail", // The transport mode (sendmail, smtp or mailgun)
-    
+
     // Configuration for sendmail transport
     // Documentation: http://nodemailer.com/transports/sendmail/
     "sendmail": {
         "path": "/usr/sbin/sendmail" // The path to sendmail command
     },
-    
+
     // Configuration for SMTP transport
     // Documentation: http://nodemailer.com/smtp/
     "smtp": {
@@ -494,7 +498,7 @@ Explanation for each field:
             "rejectUnauthorized": false // Reject unauthorized TLS/SSL certificate
         }
     },
-    
+
     // Configuration for MailGun transport
     "mailgun": {
         "key": "your-private-key", // Your MailGun Private API key
@@ -537,7 +541,7 @@ Explanation for each field:
     "source": "cryptonator", // Exchange (supported values: cryptonator, altex, crex24, cryptopia, stocks.exchange, tradeogre, maplechange)
     "currency": "USD" // Default currency
 },
-	    
+
 /* Collect pool statistics to display in frontend charts  */
 "charts": {
     "pool": {
@@ -635,7 +639,7 @@ node init.js -module=api
 
 To keep your pool up, on operating system with systemd, you can create add your pool software as a service.  
 Use this [example](https://github.com/dvandal/cryptonote-nodejs-pool/blob/master/deployment/cryptonote-nodejs-pool.service) to create the systemd service `/lib/systemd/system/cryptonote-nodejs-pool.service`
-Then enable and start the service with the following commands : 
+Then enable and start the service with the following commands :
 
 ```
 sudo systemctl enable cryptonote-nodejs-pool.service
@@ -730,7 +734,7 @@ server {
     server_name api.poolhost.com
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
-    
+
     ssl_certificate /your/ssl/certificate;
     ssl_certificate_key /your/ssl/certificate_key;
 
