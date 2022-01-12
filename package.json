@@ -1,12 +1,12 @@
 {
-	"name": "babycoin-pool",
+	"name": "cryptonote-nodejs-pool",
 	"version": "1.4.0",
 	"license": "GPL-2.0",
-	"Original author": "Daniel Vandal (cryptonote-nodejs-pool)",
-	"Maintained by": "babycoin-project",
+	"Original author": "Daniel Vandal",
+	"Maintained by": "Musclesonvacation",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/babycoin-project/babycoin-pool.git"
+		"url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
 	},
 	"dependencies": {
 		"async": "^1.5.2",

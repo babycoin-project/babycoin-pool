@@ -1,16 +1,16 @@
 var parentCoin = "babycoin";
 
 var api = "/api";
-var poolHost = "babycoin.multi-pool.net";
+var poolHost = "yourpoolhost";
 
-var email = "support@poolhost.com";
-var telegram = "https://t.me/YourPool";
-var discord = "https://discordapp.com/invite/YourPool";
+var email = "email";
+var telegram = "telegram url";
+var discord = "discord url";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var blockchainExplorer = "https://blockchain.babycoin.dev/block/{id}";
+var transactionExplorer = "https://blockchain.babycoin.dev/tx/{id}";
 
 var themeCss = "themes/default.css";
 var defaultLang = "en";
