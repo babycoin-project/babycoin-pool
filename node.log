@@ -1,0 +1,231 @@
+[34m2021-12-14 22:49:57[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:57[39m[1m[37m [master] [39m[22mDeveloper donation (devDonation) is set to 0.1%, Please consider raising it to 0.2% or higher !!!
+[34m2021-12-14 22:49:57[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [chartsDataCollector] [39m[22mStarted
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mPool spawned on 12 thread(s)
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[32m [daemon] monero found new hash 88d8dfd5d35c8ec7209b8ca301e806a408a8da948341238a24e6ddf155ca3bbf[39m[22m
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [master] [39m[22mStarting Cryptonote Node.JS pool version v2.0.0
+[34m2021-12-14 22:49:58[39m[1m[37m [unlocker] [39m[22mStarted
+(node:52935) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [unlocker] [39m[22mNo blocks candidates in redis
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for connected workers in redis database.
+(node:52956) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [payments] [39m[22mStarted
+(node:52941) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for connected workers in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for connected workers in redis database.
+(node:52976) ExperimentalWarning: queueMicrotask() is experimental.
+(node:52990) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for connected workers in redis database.
+(node:52983) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [payments] [39m[22mNo workers' balances reached the minimum payment threshold
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for connected workers in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 4) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for connected workers in redis database.
+(node:52997) ExperimentalWarning: queueMicrotask() is experimental.
+(node:53011) ExperimentalWarning: queueMicrotask() is experimental.
+(node:52943) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 2) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 3) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Miner connected 47jbMvtjSC1iGwK1oVYtuQeckfpWuZWVw8M8j5vzRcBTBeaZCPGjMe7FKLcMpUjzTGdWamVr8AVYyEHu8cZS1QkP2MgSWsk@::ffff:91.174.252.144 on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 1) Miner difficulty fixed to 5000
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 5) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for connected workers in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 7) Started server listening on port 9999
+(node:53004) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [api] [39m[22mAPI started & listening on 0.0.0.0 port 8117
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 6) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [api] [39m[22mStat collection finished: 41 ms redis, 46 ms daemon
+[34m2021-12-14 22:49:58[39m[1m[37m [api] [39m[22mBroadcasting to 1 visitors and 0 address lookups
+[34m2021-12-14 22:49:58[39m[1m[37m [api] [39m[22mStat collection broadcastLiveStats: 50 ms
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for connected workers in redis database.
+(node:53018) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 8) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for connected workers in redis database.
+(node:53028) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 11) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for connected workers in redis database.
+(node:53026) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 10) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for connected workers in redis database.
+(node:53024) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 9) Started server listening on port 9999
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for connected workers in redis database.
+(node:53038) ExperimentalWarning: queueMicrotask() is experimental.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) New monero block to mine at height 2515005 w/ difficulty of 347108235633 (0 transactions)
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for port 3333 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Started server listening on port 3333
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for port 4444 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Started server listening on port 4444
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for port 5555 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Started server listening on port 5555
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for port 7777 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Started server listening on port 7777
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for port 8888 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Started server listening on port 8888
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Clear values for port 9999 in redis database.
+[34m2021-12-14 22:49:58[39m[1m[37m [pool] [39m[22m(Thread 12) Started server listening on port 9999
+[34m2021-12-14 22:50:00[39m[1m[37m [pool] [39m[22m(Thread 1) Mining pool algorithm: randomx variant 0, Hard fork version: 14
+[34m2021-12-14 22:50:00[39m[1m[37m [pool] [39m[22m(Thread 1) Accepted valid share at difficulty 5000/8862 from 47jbMvtjSC1iGwK1oVYtuQeckfpWuZWVw8M8j5vzRcBTBeaZCPGjMe7FKLcMpUjzTGdWamVr8AVYyEHu8cZS1QkP2MgSWsk@::ffff:91.174.252.144
+[34m2021-12-14 22:50:00[39m[1m[37m [pool] [39m[22m(Thread 1) Mining pool algorithm: randomx variant 0, Hard fork version: 14
+[34m2021-12-14 22:50:00[39m[1m[37m [pool] [39m[22m(Thread 1) Accepted valid share at difficulty 5000/5155 from 47jbMvtjSC1iGwK1oVYtuQeckfpWuZWVw8M8j5vzRcBTBeaZCPGjMe7FKLcMpUjzTGdWamVr8AVYyEHu8cZS1QkP2MgSWsk@::ffff:91.174.252.144
+[34m2021-12-14 22:50:01[39m[1m[37m [pool] [39m[22m(Thread 1) Miner connected 48RCTaGg8MDfETux346AiGUXLZLSiecqd1XTqwxLuJvMH4RjVzpgVgp15aPueUDxHD9ghPApaPusngQoZdcf6E4CDv7Qyse@::ffff:51.255.69.45 on port 4444
+[34m2021-12-14 22:50:01[39m[1m[37m [pool] [39m[22m(Thread 1) Miner difficulty fixed to 15000
+[34m2021-12-14 22:50:01[39m[1m[37m [pool] [39m[22m(Thread 1) Mining pool algorithm: randomx variant 0, Hard fork version: 14
+[34m2021-12-14 22:50:01[39m[1m[37m [pool] [39m[22m(Thread 1) Accepted valid share at difficulty 5000/104777 from 47jbMvtjSC1iGwK1oVYtuQeckfpWuZWVw8M8j5vzRcBTBeaZCPGjMe7FKLcMpUjzTGdWamVr8AVYyEHu8cZS1QkP2MgSWsk@::ffff:91.174.252.144
+[34m2021-12-14 22:50:01[39m[1m[37m [pool] [39m[22m(Thread 1) Mining pool algorithm: randomx variant 0, Hard fork version: 14
+[34m2021-12-14 22:50:01[39m[1m[37m [pool] [39m[22m(Thread 1) Accepted valid share at difficulty 5000/6548 from 47jbMvtjSC1iGwK1oVYtuQeckfpWuZWVw8M8j5vzRcBTBeaZCPGjMe7FKLcMpUjzTGdWamVr8AVYyEHu8cZS1QkP2MgSWsk@::ffff:91.174.252.144
+[34m2021-12-14 22:50:03[39m[1m[37m [api] [39m[22mStat collection finished: 2 ms redis, 5 ms daemon
+[34m2021-12-14 22:50:03[39m[1m[37m [api] [39m[22mBroadcasting to 1 visitors and 0 address lookups
+[34m2021-12-14 22:50:03[39m[1m[37m [api] [39m[22mStat collection broadcastLiveStats: 5 ms
+[34m2021-12-14 22:50:04[39m[1m[37m [pool] [39m[22m(Thread 1) Mining pool algorithm: randomx variant 0, Hard fork version: 14
+[34m2021-12-14 22:50:04[39m[1m[37m [pool] [39m[22m(Thread 1) Accepted valid share at difficulty 15000/31189 from 48RCTaGg8MDfETux346AiGUXLZLSiecqd1XTqwxLuJvMH4RjVzpgVgp15aPueUDxHD9ghPApaPusngQoZdcf6E4CDv7Qyse@::ffff:51.255.69.45
+Hangup
