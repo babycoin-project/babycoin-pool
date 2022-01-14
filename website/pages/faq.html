@@ -3,8 +3,8 @@
 <h4 class="push-up-20" data-tkey="faq1_title">How do I pick which coins to merge mine?</h4>
 <div class="card padding-15 push-down-10" data-tkey="faq1_text"><p>The hash work of your miner application to the parent coin is also applied to the child coin you specify in the mining software pool password field.</p>
 
-<p>You must mine at one parent coin, which in this case is ARQ for ArQmA.
-Specify your ArQmA wallet address and static difficulty per the Getting Started page.
+<p>You must mine at one parent coin, which in this case is ARQ for BabyCoin.
+Specify your BabyCoin wallet address and static difficulty per the Getting Started page.
 Using the pool password field in your miner to specify one of the child coin wallet addresses. See which child coins are listed on the pool's Dashboard page.
 You will need at least a wallet address from an exchange or a wallet/paper wallet application to get an coin address for the parent coin and each child coin you wish to merge mine.</p>
 
@@ -15,9 +15,9 @@ You will need at least a wallet address from an exchange or a wallet/paper walle
  It can be a direct to exchange address also.</p>
 <p>For example in XMR-STAK,  the pools.txt config file  looks something like this:
 "rig_id" : "Johnny5",
-An example  wallet for Turtle child coin is "TRTL2aedfsr23blahlongaddressfield+paymentIDsomething"  
+An example  wallet for BabyCoin child coin is "babyvYnjHQPAa9HoamquQoblahlongaddressfield+paymentIDsomething"  
 so make it formatted for the pool password as
-"pool_password" : "TRTL2aedfsr23blahlongaddressfield+paymentIDsomething@Johnny5"</p>
+"pool_password" : "babyvYnjHQPAa9HoamquQoblahlongaddressfield@Johnny5"</p>
 
 <p>You can also use the configuration generator within the <a href="#getting_started">Getting Started</a> section of the pool.</p>
 <p>Also, you can segment your cpu mining on one mining application to be applied to
@@ -48,7 +48,7 @@ If your shares are accepted faster, but with lower difficulty each share is wort
 <div class="card padding-15 push-down-10" data-tkey="faq5_text">It depends on amount of active miners. The more miners work on pool â†’ the more hashrate pool has â†’ the more blocks are found by the pool. However the more miners are active â†’ the less reward you get from each block found.
 Probablistically, even smaller pools will less miners or hash rate will eventually get a block.
 Decentralizing the hash proof of work across several pools on any network is important for security of the coin network, for both the parent coin and the child coins.
-The block time is how long it can take on average amount effort . The average for ArQmA is 120 seconds. However, some of the child coins have block timeframes on the average of 15 to 30 seconds. Check your child coins network specification. Some blocks are solved faster than the average block time, some blocks can have a higher than average block effort time. 
+The block time is how long it can take on average amount effort . The average for BabyCoin is 120 seconds. However, some of the child coins have block timeframes on the average of 15 to 30 seconds. Check your child coins network specification. Some blocks are solved faster than the average block time, some blocks can have a higher than average block effort time. 
 Also some other pools might solve the block first, and there is a slim possibility of an orphan block on a child coin being mined.</div>
 
 <h4 data-tkey="faq6_title">What is an orphan block?</h4>
@@ -64,7 +64,7 @@ A few orphan blocks on child coins can happen when the parent coin's hash work d
 </div>
 
 <h4 data-tkey="faq8_title">I have been mining on this pool for 1 hour but still have not received any payouts. WTF?</h4>
-<div class="card padding-15 push-down-10" data-tkey="faq8_text"><p>As soon as the block is found you will get your reward. Please wait a little bit more time. In the case of ArQmA, a block has at least 18 confirmations before the pool starts its payout cycle.  Typically every 36 minutes for a completed block plus the time interval set by the pool operator on the pool's Dashboard screeen.  Payments can be halted for various reasons within the automated pool software, but highly unlikely. There is usually a minimum payout for each parent coin and child coins. Payments for matured blocks that meet the minimum can also be triggered manually by a pool operator/administrator. Ask nicely in Telegram or Discord support. Please have your information all in order before you ask such as miner application, version number, gpu and cpu information, wallet addresses, and error messages reported.
+<div class="card padding-15 push-down-10" data-tkey="faq8_text"><p>As soon as the block is found you will get your reward. Please wait a little bit more time. In the case of BabyCoin, a block has at least 18 confirmations before the pool starts its payout cycle.  Typically every 36 minutes for a completed block plus the time interval set by the pool operator on the pool's Dashboard screeen.  Payments can be halted for various reasons within the automated pool software, but highly unlikely. There is usually a minimum payout for each parent coin and child coins. Payments for matured blocks that meet the minimum can also be triggered manually by a pool operator/administrator. Ask nicely in Telegram or Discord support. Please have your information all in order before you ask such as miner application, version number, gpu and cpu information, wallet addresses, and error messages reported.
 </p><p>The merge mined child coins have a different number of confirmation blocks needed, but at least the pool checks for fully verified blocks set at the interval on the Dashboard page. Not every parent block found generates a child block.
 Check the Pool Blocks page on the pool. Or configure your settings to get an email alert if you like on the Settings pool page.
 </p></div>
