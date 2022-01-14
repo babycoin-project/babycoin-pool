@@ -21,10 +21,8 @@
         <h4 class="push-up-15"><span data-tkey="password">Password</span></h4>
         <div class="card padding-l-10 padding-r-10">
                 <div class="stats">
-                    <div><i class="fa fa-key"></i> <span data-tkey="usernameDesc2">Use your <strong  id="paymentChildCoins">Iridium OR Nibble wallet address</strong> in the password field for merged mining.</span></div>
-                    <div id="paymentId"><i class="fa fa-exchange"></i> <span data-tkey="paymentId">Exchange Payment ID</span>: <span><u data-tkey="childaddress">child address</u><span id="paymentIdSeparator">+</span><u data-tkey="addrPaymentId">paymentID</u></span></div>
-                    <div><i class="fa fa-server"></i> <span data-tkey="fixedDiff2">Worker Name</span>: <span><u data-tkey="childaddress">child-address</u><span id="fixedDiffSeparator2">@</span><u data-tkey="addrDiff2">workerName</u></span></div>
-                    <div><i class="fa fa-exchange fa-server"></i> <span data-tkey="fixedDiff2PaymentId">Payment ID and Worker Name</span>: <span><u data-tkey="childaddress">child-address</u>+<u data-tkey="">paymentID</u><span id="fixedDiffSeparator2">@</span><u data-tkey="addrDiff2">workerName</u></span></div>
+                    <div><i class="fa fa-key"></i> <span data-tkey="usernameDesc2">Use your the password field to set worker name (optional)</span></div>
+                    <div><i class="fa fa-server"></i> <span data-tkey="fixedDiff2">Worker Name</span>: <span><u data-tkey="addrDiff2">workerName</u></span></div>
                 </div>
         </div>
     </div>
@@ -94,12 +92,12 @@
                 <input class="form-control" id="gPaymentID" type="text" data-tplaceholder="paymentIdField" placeholder="Parent Payment ID for exchanges (optional)" />
             </div>
         </div>
-        <div class="col-sm-6 col-xs-12">
+<!--        <div class="col-sm-6 col-xs-12">
             <div class="input-group push-down-5">
                 <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                <input class="form-control" id="gChildAddress" type="text" data-tplaceholder="childAddressField" placeholder="Child Address" required="required" />
+                <input class="form-control" id="gChildAddress" type="text" data-tplaceholder="childAddressField" placeholder="Child Address" />
             </div>
-        </div>
+        </div> -->
         <div class="col-sm-6 col-xs-12">
             <div class="input-group push-down-5">
                 <span class="input-group-addon"><i class="fa fa-exchange"></i></span>
@@ -445,7 +443,8 @@ $('#generateConf').click(function() {
 
     // Username
     var address = $('#gAddress').val().replace(/\s+/g, '').trim();
-    var childAddress = $('#gChildAddress').val().replace(/\s+/g, '').trim();
+//    var childAddress = $('#gChildAddress').val().replace(/\s+/g, '').trim();
+    var childAddress = address;
     var solo = $('#gSolo').val();
     var paymentID = $('#gPaymentID').val().replace(/\s+/g, '').trim();
     var childPaymentID = $('#gChildPaymentID').val().replace(/\s+/g, '').trim();
@@ -468,4 +467,3 @@ $('#generateConf').click(function() {
 });
 
 </script>
-
